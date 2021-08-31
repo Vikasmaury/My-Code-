@@ -1,0 +1,52 @@
+import java.util.*;
+class Array1
+{
+   	static int size;
+	static int[] a;
+
+public static void main(String[] args) {
+
+	Scanner sc = new Scanner(System.in);
+   	
+   	System.out.print("Enter the size::>");		
+ 	size = sc.nextInt();
+
+  	
+	a = new int[size];
+
+  	for(int i = 1; i<=size; i++)
+		{
+			
+		}
+		if(size>9)
+	{
+	fun1();
+			System.out.println();
+	fun2();
+    }
+    else
+    {
+    	System.out.println("Please Enter more than 10");
+    }
+   }
+
+public static void fun1()
+		{
+			System.out.print("The Number Is::>");
+			for(int i = size - 4; i>=1; i--)
+			{
+				System.out.print(i+" ");
+			}
+		}
+
+
+public static void fun2()
+{
+	System.out.print("The Number Is::>");
+	for(int i = size-3 ; i<=size; i++)
+	{
+				System.out.print(i+" ");
+
+	}
+}
+}
